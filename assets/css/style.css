@@ -11,12 +11,9 @@ html, body {
     flex-direction: column;
 }
 
-header {
-    background-color: aliceblue;
-}
 
 main {
-    background-color: #678;
+    background-color: whitesmoke;
     flex: 1;
 }
 
@@ -26,7 +23,9 @@ footer {
 }
 
 /* Navigation bar */
-
+.nav-style {
+    background-color: darkslategray;
+}
 
 
 .nav-logo {
@@ -35,4 +34,6 @@ footer {
 }
 
 /* Main */
+
+
 
