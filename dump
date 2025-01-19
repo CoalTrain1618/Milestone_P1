@@ -1,0 +1,15 @@
+<div class="container px-3">
+            <div class="my-4 row text-center d-flex align-items-end">
+                <h1 class="col-12 col-md-6 text-center">One step along the way</h1>
+                <p class="col-12 col-md-6 order-md-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe,
+                    sequi assumenda autem nam quam.</p>
+                <div class="col-7 col-md-6 order-md-2 mx-auto">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div>
+        </div>

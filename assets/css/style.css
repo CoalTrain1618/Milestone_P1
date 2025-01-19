@@ -35,5 +35,11 @@ footer {
 
 /* Main */
 
+.hero-container {
+    background-color: lightskyblue;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
 
 
