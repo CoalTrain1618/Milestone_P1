@@ -60,9 +60,9 @@ footer {
     background-color: darkslategray;
     box-shadow: 0 2px 2px #3a3a3a;
 }
-
+/* Changes the color of the links in the navbar */
 .navbar-nav .nav-link {
-    color: #ffffff !important; /* Change to your desired color */
+    color: #ffffff !important;        
 }
 
 .nav-logo {
@@ -78,6 +78,7 @@ footer {
     border-radius: 10px;
     border: 4px solid rgb(63, 99, 99);
     color: white;
+    margin: 0 2px;
 }
 
 /* support section */
@@ -85,8 +86,6 @@ footer {
 .support-container {
     max-width: 500px;
     margin: auto;
-    position: relative;
-    overflow: hidden;
     background-color: darkslategray;
     border-radius: 10px;
     border: 4px solid rgb(57, 65, 44);
