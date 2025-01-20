@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Giga:wght@100..900&display=swap');
 /* global */
 
 * {
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lexend Giga', sans-serif;
 }
 
 html, body {
@@ -22,6 +26,18 @@ main {
 footer {
     background-color: #363636;
     min-height: 100px;
+}
+/* Buttons */
+
+.custom-button {
+    background-color: transparent;
+    color: darkslategray;
+    padding: 5px 20px;
+    max-width: 100px;
+    border: 2px solid darkslategray;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 /* Navigation bar */
