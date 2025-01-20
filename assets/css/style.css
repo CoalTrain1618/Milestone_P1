@@ -61,6 +61,9 @@ footer {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* Change to your desired color */
+}
 
 .nav-logo {
     width: 55px;
