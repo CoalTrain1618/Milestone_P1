@@ -25,12 +25,12 @@ html, body {
     flex-direction: column;
 }
 
-div > a {
+a {
     color: white;
     text-decoration: none;
 }
 
-div > a:hover {
+a:hover {
     color: goldenrod;
     text-decoration: none;
 }
@@ -119,6 +119,10 @@ footer {
     margin-bottom: 20px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+p > a {
+    color: darkslategray;
 }
 
 /* Sign-up Page */
