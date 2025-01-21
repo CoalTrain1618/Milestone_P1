@@ -127,6 +127,13 @@ footer {
     max-width: 520px;
 }
 
+/* Success Page */
+
+.tick-icon {
+    color: rgb(57, 65, 44);
+    font-size: 100px;
+}
+
 /* footer */
 
 .footer-style {
