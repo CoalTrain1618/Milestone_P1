@@ -21,6 +21,15 @@ html, body {
     flex-direction: column;
 }
 
+div > a {
+    color: white;
+    text-decoration: none;
+}
+
+div > a:hover {
+    color: goldenrod;
+    text-decoration: none;
+}
 
 main {
     background-color: whitesmoke;
@@ -90,4 +99,14 @@ footer {
     border-radius: 10px;
     border: 4px solid rgb(57, 65, 44);
     color: white;
+}
+
+/* footer */
+
+.footer-style {
+    color: white;
+}
+
+.social-container {
+    max-width: 150px;
 }
