@@ -121,6 +121,12 @@ footer {
     margin-right: 5px;
 }
 
+/* Sign-up Page */
+
+.form-size {
+    max-width: 520px;
+}
+
 /* footer */
 
 .footer-style {
