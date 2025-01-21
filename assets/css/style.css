@@ -11,6 +11,7 @@ h1 {
     font-family: 'Teko', sans-serif;
     font-weight: 600;
     font-size: 62px;
+    text-decoration: underline;
 }
 
 h2, h3 {
@@ -116,6 +117,8 @@ footer {
     border: 3px solid darkslategray;
     border-radius: 13px;
     margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 /* footer */
