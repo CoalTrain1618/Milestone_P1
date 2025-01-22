@@ -85,13 +85,20 @@ footer {
 
 /* Main */
 
+.hero-image {
+    background: url(../images/hero-image.png) no-repeat center center / cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
 .hero-container {
-    background-color: rgb(57, 65, 44);
-    padding: 20px 0;
+    background-color: rgb(47, 78, 78, 0.5);
+    padding: 20px 10px;
     border-radius: 10px;
-    border: 4px solid rgb(63, 99, 99);
     color: white;
     margin: 0 2px;
+    max-width: 900px;
 }
 
 /* support section */
