@@ -125,6 +125,19 @@ p > a {
     color: darkslategray;
 }
 
+/* Need Help page */
+
+.subtitle {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#gp-container {
+    border-top: 1px solid darkslategray;
+}
+
 /* Sign-up Page */
 
 .form-size {
