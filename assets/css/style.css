@@ -35,8 +35,12 @@ a:hover {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
 main {
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 220);
     flex: 1;
 }
 
@@ -95,12 +99,31 @@ footer {
 
 .hero-container {
     background-color: rgb(47, 78, 78, 0.5);
-    padding: 20px 10px;
+    padding: 5px 5px;
     border-radius: 10px;
     color: white;
     margin: 0 2px;
     max-width: 900px;
 }
+
+.text-background {
+    background-color: rgb(47, 78, 78, 0.7);
+    padding: 5px 5px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 2px;
+    max-width: 400px;
+}
+
+.text-background-alt {
+    background-color: rgb(57, 65, 44, 0.7);
+    padding: 5px 5px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 2px;
+    max-width: 400px;
+}
+
 
 /* support section */
 
@@ -108,7 +131,7 @@ footer {
     max-width: 500px;
     margin: auto;
     background-color: darkslategray;
-    border-radius: 10px;
+    border-radius: 30px;
     border: 4px solid rgb(57, 65, 44);
     color: white;
 }
