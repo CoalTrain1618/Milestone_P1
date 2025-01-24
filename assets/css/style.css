@@ -157,8 +157,9 @@ footer {
 }
 
 /* About Us Page */
-.about-title {
-    
+.about-fact {
+    font-size: 20px;
+    font-weight: 400;
 }
 
 #about-image {
