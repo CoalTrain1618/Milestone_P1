@@ -166,6 +166,10 @@ footer {
     border-radius: 50%;
 }
 
+.fact-border {
+    border-top: 2px solid darkslategray;
+}
+s
 /* Need Help page */
 
 .subtitle {
