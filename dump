@@ -13,3 +13,25 @@
                 </div>
             </div>
         </div>
+
+<!-- about us code dump -->
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <h1>Who Are We</h1>
+            <p>
+                We are a small group of individuals who are striving to make a big
+                impact on those wo need our help. Our charity started off with a
+                small group of friends who walked together regularly, to a grass
+                routes charity who have helped hundreds of people in South Wales.
+            </p>
+        </div>
+        <img id="about-image" class="col-12 col-md-6" src="./assets/images/about-image.webp" alt="Men walking throuhg a valley">
+        <div class="col-12 col-md-6">
+            <h2>Our Goal</h2>
+            <p>"Our mission is to be there when people need community most, whether as a shoulder to lean on or the motivation to overcome life’s hurdles. No matter how much our charity 
+                grows, our commitment will remain small and personal, focused on touching lives and making a difference."
+            </p>
+        </div>
+    </div>
+</div>

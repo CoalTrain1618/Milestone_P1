@@ -156,6 +156,15 @@ footer {
     text-decoration: underline;
 }
 
+/* About Us Page */
+.about-title {
+    
+}
+
+#about-image {
+    border-radius: 50%;
+}
+
 /* Need Help page */
 
 .subtitle {
