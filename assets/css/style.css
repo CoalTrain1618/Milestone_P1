@@ -177,7 +177,8 @@ footer {
     color: white;
     padding: 10px;
     margin-bottom: 10px;
-    max-width: 292px;
+    width: 292px;
+    height: auto;
 }
 
 /* Sign-up Page */
