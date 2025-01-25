@@ -168,6 +168,7 @@ footer {
 
 .fact-border {
     border-top: 2px solid darkslategray;
+    border-radius: 8px;
 }
 s
 /* Need Help page */
