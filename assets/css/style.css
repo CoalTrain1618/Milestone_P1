@@ -195,6 +195,11 @@ s
     height: auto;
 }
 
+.support-logo {
+    width: 70px;
+    border-radius: 50%;
+}
+
 /* Sign-up Page */
 
 .form-size {
