@@ -213,6 +213,20 @@ s
     font-size: 100px;
 }
 
+/* 404 error page */
+
+.error-div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.error-message {
+    text-decoration: none;
+    font-size: 100px;
+}
+
 /* footer */
 
 .footer-style {

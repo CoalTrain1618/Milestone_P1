@@ -57,6 +57,53 @@ Autoplay text carousel for walkers reviews. Used Bootstrap autoplay (no controls
 
 About us allowsthe visitor an option to learn about the organisation whilst at near the bottom of the page.
 
+### Walk Page
+
+#### Walk Cards
+ 
+![Walk Cards](./assets/images/website-features/walkCard.png)
+
+The Walk card is designed with Bootstrap's row class design. Cards are designed to give visitor an insight as to what to expect fromt the walk.
+
+* Image of Walk
+* Location of walk, along with map loacation
+* Time of meet-up
+* Walk leader
+* Average group size
+
+The big stuff card is for big organised walks.
+
+![Big Stuff card](./assets/images/website-features/bigStuffCard.png)
+
+### About Us page
+
+The about us page is a mainly text bassed page for allowing the visitor to understand who we are and what we want to work towards, along with som stats. 
+
+![About Us](./assets/images/website-features/aboutPage.png)
+
+### Need help page
+
+This page is designed for visitors seeking extra support. It features cards highlighting organisations for crisis helplines and general support. We’ve included diverse options to cater to various needs.
+
+![Support guidance](./assets/images/website-features/supportGuidance.png)
+
+Along with the cards, we have general guidance for connecting with local GP.
+
+### Sign Up page
+
+The Sign-Up page is a form where visitors can register to join one of the Men of Wales walks.
+
+![Sign Up page](./assets/images/website-features/sign-upPage.png)
+
+This form utilises the required function to ensure it is filled out correctly by the visitor, with minimal allowance for error.
+
+When the visitor submits the form, they are taken to a success page, where they are informed that the form submission was successful.
+
+![Successfully submitted](./assets/images/website-features/successPage.png)
+
+
+---
+
 ### link to Wireframes Here
 
 PDF file containing all Wireframes designs
