@@ -101,13 +101,19 @@ When the visitor submits the form, they are taken to a success page, where they 
 
 ![Successfully submitted](./assets/images/website-features/successPage.png)
 
+### 404 error page
 
+Custom page has been added for continuity of design.
+
+![404 Error](./assets/images/website-features/404Page.png)
 ---
 
-### link to Wireframes Here
+### link to Wireframes Here !
 
 PDF file containing all Wireframes designs
 [Wireframes PDF](/Milestone_P1/MenOfWales_Wireframes.pdf)
+
+---
 
 ### Technologies Used Here
 ----
@@ -118,11 +124,17 @@ PDF file containing all Wireframes designs
 * CSS
   * Styling the website with css external file
 
+* JavaScript
+  * Used for adding in bootStrap & Fontawesome funtionality
+
 * Bootstrap
   * Used for framework of various sections (tagged with Bootstrap)
 
 * Favicon.io
   * Used for favicons generated 
+
+* Fontawesome
+  * Used for Icons across site
 
 * ChatGPT
   * Used for generation website logo and images used
@@ -131,7 +143,7 @@ PDF file containing all Wireframes designs
   * Creating and designing the Wireframes for Men of Wales 
 
 * Git hub
-  *used for hosting files and deployment
+  * used for hosting files and deployment
 
 * Git
   * Used for commiting changes and pushing to Github.
@@ -139,16 +151,25 @@ PDF file containing all Wireframes designs
 * VS Code
   * Code editor used for writing all code in this project. 
 
+* Lighthouse 
+  * USed for website performance testing
+
+* Wave 
+  * Used for testing website  accessability
+
+* W3cs
+  * Used for code validation
+
 ---
 
 ### Testing
 
-#### Use wave.webaim.org
+#### Use wave.webaim for accessability testing
 
-#### Functional testing
+#### Code validation use w3c validator
 
-#### validator 
-use w3c validator
+#### Light house testing for performance scores
+
 
 ---
 

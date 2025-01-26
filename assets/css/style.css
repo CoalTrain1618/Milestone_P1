@@ -123,6 +123,9 @@ footer {
     max-width: 400px;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+}
 
 /* support section */
 
