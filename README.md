@@ -162,15 +162,88 @@ PDF file containing all Wireframes designs
 
 ---
 
-### Testing
+## Testing
 
 #### Use wave.webaim for accessability testing
 
-#### Code validation use w3c validator
+### W3C Code Validation
 
-#### Light house testing for performance scores
+I used W3C code validator for checking all HTML code is valid. I pasted each pages code into the validatior individually for most accurate validation.
 
+#### index.html
+![index.html](./assets/images/w3c-Validation/indexHtml%20validation.png)
 
+#### walks.html
+![walks.html](./assets/images/w3c-Validation/walksHtmlValidation.png)
+
+#### aboutUs.html
+![aboutUs.html](./assets/images/w3c-Validation/aboutHtmlValidation.png)
+
+#### needhelp.html
+![needhelp.html](./assets/images/w3c-Validation/needhelpHtmlValidation.png)
+
+#### signUp.html
+![signup.html](./assets/images/w3c-Validation/signUpHtmlValidation.png)
+
+#### success.html
+![success.html](./assets/images/w3c-Validation/successHtmlValidation.png)
+
+#### style.css
+![style.css](./assets/images/w3c-Validation/cssValidation.png)
+
+Satisfied with the result of no errors accross all pages individually, I then tested the HTMl and CSS with URL testing method.
+
+#### URL test HTML
+![URL HTML](./assets/images/w3c-Validation/urlHtmlValidation.png)
+
+#### URL test CSS
+![URL CSS](./assets/images/w3c-Validation/urlCssValidation.png)
+
+Both tests yielded no errors.
+
+## Light house testing for performance scores
+
+I used Lighthouse testing for performance tests, checking that the site runs smoothly on both desktop and mobile. As expected, mobile results are slightly lower.
+
+When putting each page through testing, tests showed that the images were originally oversized, causing unnecessary load times. As a result, I resized every image on the website for better optimisation, as well as changed their format to .webp.
+
+### Results
+
+#### Index Desktop & Mobile
+* Desktop
+  * ![Index results](./assets/images/lighthouseScores/indexLighthouse.png)
+* Mobile  
+  * ![Mobile](./assets/images/lighthouseScores/indexPhoneLighthouse.png)
+
+#### Walks Desktop & Mobile
+* Desktop
+  * ![Desktop](./assets/images/lighthouseScores/walksLighthouse.png)
+* Mobile  
+  * ![Mobile](./assets/images/lighthouseScores/walkPhoneLighthouse.png)
+
+#### About Us Desktop & Mobile
+* Desktop  
+  * ![Desktop](./assets/images/lighthouseScores/aboutUsLighthouse.png)
+* Mobile  
+  * ![Mobile](./assets/images/lighthouseScores/aboutPhoneLighthouse.png)
+
+#### Need Support Desktop & Mobile
+* Desktop  
+  * ![Desktop](./assets/images/lighthouseScores/needHelpLighthouse.png)
+* Mobile
+  * ![Mobile](./assets/images/lighthouseScores/needhelpPhoneLighthouse.png)
+
+#### Sign Up Desktop & Mobile
+* Desktop  
+  * ![Desktop](./assets/images/lighthouseScores/SignUpLighthouse.png)
+* Mobile
+  * ![Mobile](./assets/images/lighthouseScores/signupPhoneLighthouse.png)
+
+#### Success Desktop & Mobile
+* Desktop  
+  * ![Desktop](./assets/images/lighthouseScores/successfulLighthouse.png)
+* Mobile
+  * ![Mobile](./assets/images/lighthouseScores/successPhoneLighthouse.png)
 ---
 
 ### Deployment
