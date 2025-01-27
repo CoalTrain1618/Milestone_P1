@@ -166,10 +166,11 @@ PDF file containing all Wireframes designs
 
 #### Use wave.webaim for accessability testing
 
-### W3C Code Validation
+## W3C Code Validation
 
 I used W3C code validator for checking all HTML code is valid. I pasted each pages code into the validatior individually for most accurate validation.
 
+## Results
 #### index.html
 ![index.html](./assets/images/w3c-Validation/indexHtml%20validation.png)
 
@@ -207,43 +208,66 @@ I used Lighthouse testing for performance tests, checking that the site runs smo
 
 When putting each page through testing, tests showed that the images were originally oversized, causing unnecessary load times. As a result, I resized every image on the website for better optimisation, as well as changed their format to .webp.
 
-### Results
+## Results
 
-#### Index Desktop & Mobile
+### Index Desktop & Mobile
 * Desktop
   * ![Index results](./assets/images/lighthouseScores/indexLighthouse.png)
 * Mobile  
   * ![Mobile](./assets/images/lighthouseScores/indexPhoneLighthouse.png)
 
-#### Walks Desktop & Mobile
+### Walks Desktop & Mobile
 * Desktop
   * ![Desktop](./assets/images/lighthouseScores/walksLighthouse.png)
 * Mobile  
   * ![Mobile](./assets/images/lighthouseScores/walkPhoneLighthouse.png)
 
-#### About Us Desktop & Mobile
+### About Us Desktop & Mobile
 * Desktop  
   * ![Desktop](./assets/images/lighthouseScores/aboutUsLighthouse.png)
 * Mobile  
   * ![Mobile](./assets/images/lighthouseScores/aboutPhoneLighthouse.png)
 
-#### Need Support Desktop & Mobile
+### Need Support Desktop & Mobile
 * Desktop  
   * ![Desktop](./assets/images/lighthouseScores/needHelpLighthouse.png)
 * Mobile
   * ![Mobile](./assets/images/lighthouseScores/needhelpPhoneLighthouse.png)
 
-#### Sign Up Desktop & Mobile
+### Sign Up Desktop & Mobile
 * Desktop  
   * ![Desktop](./assets/images/lighthouseScores/SignUpLighthouse.png)
 * Mobile
   * ![Mobile](./assets/images/lighthouseScores/signupPhoneLighthouse.png)
 
-#### Success Desktop & Mobile
+### Success Desktop & Mobile
 * Desktop  
   * ![Desktop](./assets/images/lighthouseScores/successfulLighthouse.png)
 * Mobile
   * ![Mobile](./assets/images/lighthouseScores/successPhoneLighthouse.png)
+---
+
+## Form Validation
+
+Carried out form validation to ensure there are minimal errors when users fill out the form. All fields, except for additional information, are required inputs. I expect the webpage to alert users when a field is not sufficiently filled.
+
+## Results
+
+### Full Name Field - Alert expected
+![Full Name](./assets/images/form-validation/nameFieldValidation.png)
+
+### Email Field - Alert expected
+![Email](./assets/images/form-validation/emailFieldValidation.png)
+
+### Select Field - Alert expected
+![Select Walk](./assets/images/form-validation/walkSelectValidation.png)
+
+### Phone Number Field - Alert expected
+![Phone Number](./assets/images/form-validation/phoneFieldValidation.png)
+
+### Subission Success - Expecting to be taken to for success page upon submission
+![Success Page](./assets/images/form-validation/sumbitFormValidation.png)
+
 ---
 
 ### Deployment
