@@ -67,29 +67,30 @@
         </div>
         <!-- Bootstrap framework altered to suit -->
         <div class="container form-size">
-            <form class="row g-3 mt-4" action="success.html" method="">
+            <!-- no method as github pages does nt support POST -->
+            <form class="row g-3 mt-4" action="success.html">
                 <div class="col-12">
                   <label for="name" class="form-label">Full Name</label>
-                  <input type="name" class="form-control" id="name" required />
+                  <input type="text" class="form-control" id="name" required>
                 </div>
                 <div class="col-12">
                   <label for="inputEmail4" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" required/>
+                  <input type="email" class="form-control" id="inputEmail4" required>
                 </div>
                 <div class="col-md-12">
                   <label for="inputwalk" class="form-label">Select Walk</label>
                   <select id="inputwalk" class="form-select" required>
-                    <option selected="">Please Select</option>
-                    <option>Wenallt Forest</option>
-                    <option>Cwmcarn Forest</option>
-                    <option>Craig yr Aber Woods</option>
-                    <option>Sirhowy Valley Country Park</option>
-                    <option>Snowdonia</option>
+                    <option value="" disabled selected>Select Walk</option>
+                    <option value="1">Wenallt Forest</option>
+                    <option value="2">Cwmcarn Forest</option>
+                    <option value="3">Craig yr Aber Woods</option>
+                    <option value="4">Sirhowy Valley Country Park</option>
+                    <option value="5">Snowdonia</option>
                   </select>
                 </div>
                 <div class="col-12">
                   <label for="number" class="form-label">Phone Number</label>
-                  <input type="number" class="form-control" id="number" required/>
+                  <input type="number" class="form-control" id="number" required>
                 </div>
                 <div class="form-floating">
                     <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
