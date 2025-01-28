@@ -108,6 +108,29 @@ Custom page has been added for continuity of design.
 ![404 Error](./assets/images/website-features/404Page.png)
 ---
 
+## Responsive Design
+
+
+---
+
+## Browser testing
+
+I tested the website across three different browsers to check responsivness and if the page functions correctly. 
+
+
+---
+
+## User Story testing
+
+| User Story | Testing |
+| ---| ---|
+| As a visitor who is interested in joining a group walk. I would like to see what walking groups are available to join and where. | Created card fors visitors to get information on each walk. Features include Image of walk, location with map pin and walk times. |
+| As a visitor who isn't sure about walking in groups, i would like to see group sizes and to feel familiar with what to expect. | Added a feature in to display average group size for visitor familiarity. | 
+|  As a previous attendee to a walk, I want to quickly access the sign up form for the other walks. | Added sign-up form to navigation bar for quick access. |
+|  As a visitor who is also looking for support with my mental health, i would like to see recourses to mental health services. | Created a page containing general information on mental health along with links to other services for crisis and mental health support. |
+| As a visitor I would like to see more about Men of Wales and the work they do. | Created an about page for further information on Men of Wales. This page includes goals and story, along with stats. 
+
+---
 ### link to Wireframes Here !
 
 PDF file containing all Wireframes designs
