@@ -187,7 +187,37 @@ PDF file containing all Wireframes designs
 
 ## Testing
 
-#### Use wave.webaim for accessability testing
+## Wave Tests
+
+* I used Wave for accessibility testing across all pages, to ensure the site has good accessibility. During testing there was no errors found.
+
+* All pages had an alert due to both the home button and the page icon linking to index.html. 
+
+## Results
+#### Index Wave Results
+![index wave](./assets/images/wave-results/index-wave.png)
+
+* The index page had contrast errors on the 'previous' & 'next' buttons on the carousel. I changed the icons and it's colour to be igh contrast numerous times, but contrast error still persisted. 
+
+#### Walks Wave Result
+![walks wave](./assets/images/wave-results/walks-wave.png)
+
+#### About wave result
+![about wave](./assets/images/wave-results/about-wave.png)
+
+#### Need Help Wave Result
+![needhelp wave](./assets/images/wave-results/help-wave.png)
+
+#### Sign-Up Wave Result
+![signup wave](./assets/images/wave-results/signup-wave.png)
+
+#### Success Wave Result
+![Success wave](./assets/images/wave-results/success-wave.png)
+
+#### 404 wave result
+![404 wave](./assets/images/wave-results/404-wave.png)
+
+---
 
 ## W3C Code Validation
 
