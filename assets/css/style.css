@@ -133,6 +133,10 @@ footer {
     color: #ffffff;
     font-size: x-large;
 }
+
+.carousel-image {
+    background-color: darkslategray;
+}
 /* support section */
 
 .support-container {
