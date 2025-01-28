@@ -243,9 +243,10 @@ s
 }
 
 .social-container {
-    width: 130px;
+    max-width: 300px;
+    width: 100%;
 }
 
 .social-icons {
-    font-size: 22px;
+    font-size: 40px;
 }
