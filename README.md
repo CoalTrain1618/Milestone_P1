@@ -68,35 +68,33 @@ The big stuff card is for big organised walks.
 
 ### About Us page
 
-The about us page is a mainly text bassed page for allowing the visitor to understand who we are and what we want to work towards, along with som stats. 
-
 ![About Us](./assets/images/website-features/aboutPage.png)
+
+* Provide visitors with a comprehensive overview to help them understand who we are, our mission, and what we aim to achieve.
+* Educates visitors about the organisation's background and goals, promoting visitor engagement with joining our walks.
 
 ### Need help page
 
-This page is designed for visitors seeking extra support. It features cards highlighting organisations for crisis helplines and general support. We’ve included diverse options to cater to various needs.
-
 ![Support guidance](./assets/images/website-features/supportGuidance.png)
 
-Along with the cards, we have general guidance for connecting with local GP.
+* Provide visitors seeking extra support with a page featuring cards that highlight organisations for crisis helplines and general support, offering diverse options to cater to various needs.
+* Ensures visitors can quickly and easily find relevant support services and crisis help lines. Giving visitors easy to access support.
 
 ### Sign Up page
 
-The Sign-Up page is a form where visitors can register to join one of the Men of Wales walks.
-
 ![Sign Up page](./assets/images/website-features/sign-upPage.png)
 
-This form utilises the required function to ensure it is filled out correctly by the visitor, with minimal allowance for error.
-
-When the visitor submits the form, they are taken to a success page, where they are informed that the form submission was successful.
+* Provide a straightforward form where visitors can register to join one of the Men of Wales walks.
+* Facilitates easy registration, encouraging participation by simplifying the sign-up process and ensuring a hastle free sign up.
 
 ![Successfully submitted](./assets/images/website-features/successPage.png)
 
 ### 404 error page
 
-Custom page has been added for continuity of design.
-
 ![404 Error](./assets/images/website-features/404Page.png)
+
+* Ensure design continuity across the website by incorporating a custom page.
+* Maintains a cohesive and unified look throughout the site, enhancing user experience.
 ---
 
 ## Responsive Design
@@ -311,6 +309,37 @@ Carried out form validation to ensure there are minimal errors when users fill o
 
 ### Subission Success - Expecting to be taken to for success page upon submission
 ![Success Page](./assets/images/form-validation/sumbitFormValidation.png)
+
+---
+
+## Functional Testing
+
+Here I tested each anchor tag along with button across the page. This is to ensure they all take me to the correct destination and function as intended. 
+
+## Results
+
+### Index HTML
+
+| Line of Code | Desired Destination | Target _blank | Test Case                | Description                                        | Status |
+|--------------|---------------------|---------------|--------------------------|----------------------------------------------------|--------|
+| 40    | index.html     | No      | Anchor Tag Functionality | Verify anchor tag redirects to index.html properly | Pass    |
+| 41    | walks.html     | No      | Anchor Tag Functionality | Verify anchor tag redirects to walks.html properly | Pass    |
+| 42    | about.html     | No      | Anchor Tag Functionality | Verify anchor tag redirects to about.html properly | Pass    |
+| 43    | needHelp.html  | No      | Anchor Tag Functionality | Verify anchor tag redirects to needHelp.html properly | Pass    |
+| 44    | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
+| 97    | walks.html     | No      | Anchor Tag Functionality | Verify anchor tag redirects to walks.html properly    | Pass    |
+| 110   | needHelp.html  | No      | Anchor Tag Functionality | Verify anchor tag redirects to needHelp.html properly | Pass    |
+| 137   | about.html     | No      | Anchor Tag Functionality | Verify anchor tag redirects to needHelp.html properly | Pass    |
+
+### Footer
+
+| Line of Code | Desired Destination | Target _blank | Test Case                | Description                                        | Status |
+|--------------|---------------------|---------------|--------------------------|----------------------------------------------------|--------|
+| 147   | facebook.com    | yes      | Anchor Tag Functionality | Verify anchor tag redirects to facebook.com properly  | Pass    |
+| 148   | instagram.com   | yes      | Anchor Tag Functionality | Verify anchor tag redirects to instagram.com properly | Pass    |
+| 149   | X.com           | yes      | Anchor Tag Functionality | Verify anchor tag redirects to x.com properly         | Pass    |
+| 150   | linkedin.com    | yes      | Anchor Tag Functionality | Verify anchor tag redirects to linkedin.com properly  | Pass    |
+
 
 ---
 
