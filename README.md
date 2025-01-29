@@ -318,7 +318,9 @@ Here I tested each anchor tag along with button across the page. This is to ensu
 
 ## Results
 
-### Index HTML
+### - Navbar
+
+- Navbar is copy and pasted to all other pages, so only recording test once.
 
 | Line of Code | Desired Destination | Target _blank | Test Case                | Description                                        | Status |
 |--------------|---------------------|---------------|--------------------------|----------------------------------------------------|--------|
@@ -327,11 +329,18 @@ Here I tested each anchor tag along with button across the page. This is to ensu
 | 42    | about.html     | No      | Anchor Tag Functionality | Verify anchor tag redirects to about.html properly | Pass    |
 | 43    | needHelp.html  | No      | Anchor Tag Functionality | Verify anchor tag redirects to needHelp.html properly | Pass    |
 | 44    | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
+
+### - Index HTML
+
+| Line of Code | Desired Destination | Target _blank | Test Case                | Description                                        | Status |
+|--------------|---------------------|---------------|--------------------------|----------------------------------------------------|--------|
 | 97    | walks.html     | No      | Anchor Tag Functionality | Verify anchor tag redirects to walks.html properly    | Pass    |
 | 110   | needHelp.html  | No      | Anchor Tag Functionality | Verify anchor tag redirects to needHelp.html properly | Pass    |
 | 137   | about.html     | No      | Anchor Tag Functionality | Verify anchor tag redirects to needHelp.html properly | Pass    |
 
-### Footer
+### - Index Footer
+
+- Footer is copy and pasted to other pages, so only recording the test once.
 
 | Line of Code | Desired Destination | Target _blank | Test Case                | Description                                        | Status |
 |--------------|---------------------|---------------|--------------------------|----------------------------------------------------|--------|
@@ -340,6 +349,34 @@ Here I tested each anchor tag along with button across the page. This is to ensu
 | 149   | X.com           | yes      | Anchor Tag Functionality | Verify anchor tag redirects to x.com properly         | Pass    |
 | 150   | linkedin.com    | yes      | Anchor Tag Functionality | Verify anchor tag redirects to linkedin.com properly  | Pass    |
 
+###  - Walks HTML - Map Locations
+
+| Line of Code | Desired Destination | Target _blank | Test Case                | Description                                        | Status |
+|--------------|---------------------|---------------|--------------------------|----------------------------------------------------|--------|
+| 75    | google.co.uk/map/place  | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Map pinpoint properly | Pass    |
+| 102   | google.co.uk/map/place  | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Map pinpoint properly | Pass    |
+| 131   | google.co.uk/map/place  | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Map pinpoint properly | Pass    |
+| 160   | google.co.uk/map/place  | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Map pinpoint properly | Pass    |
+| 197   | google.co.uk/map/place  | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Map pinpoint properly | Pass    |
+
+### - Walks HTML - Sign Ups
+
+| Line of Code | Desired Destination | Target _blank | Test Case                | Description                                        | Status |
+|--------------|---------------------|---------------|--------------------------|----------------------------------------------------|--------|
+| 83    | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
+| 111   | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
+| 140   | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
+| 169   | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
+| 208   | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
+
+### - needHelp HTML
+
+| Line of Code | Desired Destination | Target _blank | Test Case                | Description                                        | Status |
+|--------------|---------------------|---------------|--------------------------|----------------------------------------------------|--------|
+| 83    | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
+| 111   | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
+| 140   | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
+| 169   | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
 
 ---
 
