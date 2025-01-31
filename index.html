@@ -50,15 +50,16 @@
 
     <main>
         <!-- Custom layout using Bootstrap classes to style -->
-        <div class="hero-image d-flex align-items-center">
+        <section class="hero-image d-flex align-items-center">
             <div class="mb-4 d-flex flex-column align-items-sm-start text-center hero-container">
                     <h1 class="">Men of Wales</h1>
                     <p style="font-size: large; font-weight: 600;"><em>Together we walk, to help one and another take the next step in our jouney</em></p>
             </div>
-        </div>
+        </section>
         <!-- Walk with us section -->
-        <div class="container my-5">
+        <section class="container my-5">
             <div class="row">
+                <!-- Carousel for walking images -->
                 <div id="carouselExampleAutoplaying" class="carousel slide col-12 col-md-6" data-bs-ride="carousel">
                     <div class="carousel-inner rounded">
                         <div class="carousel-item active">
@@ -74,6 +75,7 @@
                                 alt="Men walking in Welsh countryside">
                         </div>
                     </div>
+                    <!-- Carousel Buttons Prev/Next -->
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
                         data-bs-slide="prev">
                         <!-- aria-hidden has been changed for screen readers -->
@@ -86,6 +88,7 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
+                <!-- Why Walk div -->
                 <div class="col-md-6 d-flex flex-column justify-content-evenly align-items-center">
                     <h2 class="pt-1 mt-1 text-background-alt fact-border">Why Walk ?</h2>
                     <ul class="reasons-style mt-1">
@@ -96,11 +99,14 @@
                     </ul>
                     <a href="walks.html" class="mx-auto mt-1 custom-button mx-md-0">Learn More</a>
                 </div>
+
             </div>
-        </div>
-        <!-- need support section -->
-        <div class="container mt-3">
+        </section>
+
+        <!-- Support & Review section -->
+        <section class="container mt-3">
             <div class="row">
+                <!-- Support Card -->
                 <div class="col-md-6 col-12 text-center support-container d-flex flex-column justify-content-center py-3 mb-4">
                     <h2>Need Help ? <i class="fa-duotone fa-solid fa-handshake-angle"></i></h2>
                     <p>We can put you in the right direction to get support. We work closley with other
@@ -109,6 +115,7 @@
                     </p>
                     <a href="needHelp.html" class="custom-button-white mx-auto" style="max-width: 150px;">Get Support</a>
                 </div>
+                <!-- Walkers reviews div -->
                 <div class="col-md-6 col-12 d-flex flex-column justify-content-center align-items-center">
                     <h2>Walker's Words</h2>
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -125,18 +132,19 @@
                         </div>
                       </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- Aubout us -->
-        <div class="container py-5">
+            </div>
+        </section>
+
+        <!-- Aubout us section-->
+        <section class="container py-5">
             <div class="text-center d-flex flex-column justify-content-center">
                 <h3 class="">About Us <i class="fa-solid fa-users"></i></h3>
                 <p class="">If you want to know more about us, or get involved with helping out, click the button below
                     to find out more.</p>
                 <a href="about.html" class="custom-button mx-auto" style="max-width: 150px;">Find Out</a>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer>

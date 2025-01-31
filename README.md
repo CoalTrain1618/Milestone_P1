@@ -99,23 +99,15 @@ The big stuff card is for big organised walks.
 
 ## Responsive Design
 
-
----
-
-## Browser testing
-
-I tested the website across three different browsers to check responsivness and if the page functions correctly. 
-
-
 ---
 
 ## User Story testing
 
-| User Story | Testing |
-| ---| ---|
-| As a visitor who is interested in joining a group walk. I would like to see what walking groups are available to join and where. | Created card fors visitors to get information on each walk. Features include Image of walk, location with map pin and walk times. |
-| As a visitor who isn't sure about walking in groups, i would like to see group sizes and to feel familiar with what to expect. | Added a feature in to display average group size for visitor familiarity. | 
-|  As a previous attendee to a walk, I want to quickly access the sign up form for the other walks. | Added sign-up form to navigation bar for quick access. |
+|                          User Story                                   |                              Testing                             |
+| ----------------------------------------------------------------------|------------------------------------------------------------------|
+| As a visitor who is interested in joining a group walk. I would like to see what walking groups are available to join and where.  | Created card fors visitors to get information on each walk. Features include Image of walk, location with map pin and walk times.   |
+| As a visitor who isn't sure about walking in groups, i would like to see group sizes and to feel familiar with what to expect.    | Added a feature in to display average group size for visitor familiarity.| 
+|  As a previous attendee to a walk, I want to quickly access the sign up form for the other walks.                                 | Added sign-up form to navigation bar for quick access. |
 |  As a visitor who is also looking for support with my mental health, i would like to see recourses to mental health services. | Created a page containing general information on mental health along with links to other services for crisis and mental health support. |
 | As a visitor I would like to see more about Men of Wales and the work they do. | Created an about page for further information on Men of Wales. This page includes goals and story, along with stats. 
 
@@ -174,15 +166,15 @@ PDF file containing all Wireframes designs
 
 ---
 
-## Testing
+# Testing
 
-## Wave Tests
+## Wave Testing
 
 * I used Wave for accessibility testing across all pages, to ensure the site has good accessibility. During testing, there were no errors found.
 
 * All pages had an alert due to both the home button and the page icon linking to index.html.However, I wanted to keep both for visitor convenience when the nav bar is collapsed in phone size.
 
-## Results
+## Wave Test Results
 #### Index Wave Results
 ![index wave](./assets/images/wave-results/index-wave.png)
 
@@ -312,9 +304,21 @@ Carried out form validation to ensure there are minimal errors when users fill o
 
 ---
 
+## Browser Testing 
+
+ - I conducted browser tests using four different browsers to check for visual discrepencies and responsive design. Safari tests was conducted on a MacBook.
+
+ |    Browser     |        Version         |      Visual Discrepencies     |                   Responsive design                     |
+ |----------------|------------------------|-------------------------------|---------------------------------------------------------|
+ |   Google       |        Latest          |    No visual discrepencies    | Site remains responsive on all pages and screen sizes   |
+ |   Edge         |        Latest          |    No visual discrepencies    | Site remains responsive on all pages and screen sizes   |
+ |   Brave        |        Latest          |    No visual discrepencies    | Site remains responsive on all pages and screen sizes   |
+ |   Safari       |        Latest          |                               |    |
+---
+
 ## Functional Testing
 
-Here I tested each anchor tag along with button across the page. This is to ensure they all take me to the correct destination and function as intended. 
+I tested each anchor tag across all pages to ensure they all direct me to the correct destination and function as intended. 
 
 ## Results
 
@@ -369,14 +373,27 @@ Here I tested each anchor tag along with button across the page. This is to ensu
 | 169   | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
 | 208   | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
 
-### - needHelp HTML
+### - needHelp HTML - Website links
 
 | Line of Code | Desired Destination | Target _blank | Test Case                | Description                                        | Status |
 |--------------|---------------------|---------------|--------------------------|----------------------------------------------------|--------|
-| 83    | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
-| 111   | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
-| 140   | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
-| 169   | signUp.html    | No      | Anchor Tag Functionality | Verify anchor tag redirects to signUp.html properly | Pass    |
+| 79    | samaritans.org      | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Samritan's site properly | Pass    |
+| 87    | callhelpline.org    | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to C.A.L.L's site properly | Pass    |
+| 95    | nhs.uk              | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to NHS's site properly | Pass    |
+| 111   | umbrellacymru.co.uk | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Umbrella Cymru's site properly | Pass    |
+| 118   | diversecymru.org.uk    | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Diverse Cymru's site properly | Pass    |
+| 125   | meiccymru.org    | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Miec Cymru's site properly | Pass    |
+
+### needHelp HTML - Tel: link
+
+- The tel: anchor tags were tested by opening the link on a phone.
+
+| Line of Code | Desired Destination | Target _blank | Test Case                | Description                                        | Status |
+|--------------|---------------------|---------------|--------------------------|----------------------------------------------------|--------|
+| 79    | Phone App   | No      | Anchor Tag Functionality | Verify anchor tag Opens Samaritans' number to phone pad properly | Pass    |
+| 87    | Phone App   | No      | Anchor Tag Functionality | Verify anchor tag Opens C.A.L.L's number to phone pad properly | Pass    |
+| 95    | Phone App   | No      | Anchor Tag Functionality | Verify anchor tag Opens NHS's number to phone pad properly | Pass    |
+
 
 ---
 
