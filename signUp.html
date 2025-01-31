@@ -27,8 +27,8 @@
         <!-- Bootstrap framework modified to use flex aswell as row -->
         <nav class="navbar navbar-expand-md nav-style">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img class="nav-logo" src="./assets/images/MenofWalesLogo_small.webp"
-                        alt="Men of wales Logo"></a>
+                <a class="navbar-brand" href="index.html"><img class="nav-logo"
+                        src="./assets/images/MenofWalesLogo_small.webp" alt="Men of wales Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -49,55 +49,60 @@
     </header>
 
     <main>
-        <!-- Unique header design, may change -->
-        <div class="container d-flex justify-content-center justify-content-md-start align-items-center">
-            <div>
+        <!-- Unique Title design, will upgrade it to JS or CSS animation in the future -->
+        <section>
+            <div class="container d-flex justify-content-center justify-content-md-start align-items-center">
                 <h1 class="pt-3">Sign</h1>
             </div>
-        </div>
-        <div class="container d-flex justify-content-center justify-content-md-center align-items-center">
-            <div>
+
+            <div class="container d-flex justify-content-center justify-content-md-center align-items-center">
                 <h1 class="pt-3">Up</h1>
             </div>
-        </div>
-        <div class="container d-flex justify-content-center justify-content-md-end align-items-center">
-            <div>
+
+            <div class="container d-flex justify-content-center justify-content-md-end align-items-center">
                 <h1 class="pt-3">Now</h1>
             </div>
-        </div>
-        <!-- Bootstrap framework altered to suit -->
+        </section>
+        <!-- Section -->
         <div class="container form-size">
-            <!-- no method as github pages does nt support POST -->
+            <!-- Bootstrap framework, custom layout. No method as github pages does not support POST -->
             <form class="row g-3 mt-4" action="success.html">
+                <!-- Full name input = required -->
                 <div class="col-12">
-                  <label for="name" class="form-label">Full Name</label>
-                  <input type="text" class="form-control" id="name" required>
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" required>
                 </div>
+                <!-- Email input = required -->
                 <div class="col-12">
-                  <label for="inputEmail4" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" required>
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" required>
                 </div>
+                <!-- Walk Selection = option required -->
                 <div class="col-md-12">
-                  <label for="inputwalk" class="form-label">Select Walk</label>
-                  <select id="inputwalk" class="form-select" required>
-                    <option value="" disabled selected>Select Walk</option>
-                    <option value="1">Wenallt Forest</option>
-                    <option value="2">Cwmcarn Forest</option>
-                    <option value="3">Craig yr Aber Woods</option>
-                    <option value="4">Sirhowy Valley Country Park</option>
-                    <option value="5">Snowdonia</option>
-                  </select>
+                    <label for="inputwalk" class="form-label">Select Walk</label>
+                    <select id="inputwalk" class="form-select" required>
+                        <option value="" disabled selected>Select Walk</option>
+                        <option value="1">Wenallt Forest</option>
+                        <option value="2">Cwmcarn Forest</option>
+                        <option value="3">Craig yr Aber Woods</option>
+                        <option value="4">Sirhowy Valley Country Park</option>
+                        <option value="5">Snowdonia</option>
+                    </select>
                 </div>
+                <!-- Phone input = required -->
                 <div class="col-12">
-                  <label for="number" class="form-label">Phone Number</label>
-                  <input type="number" class="form-control" id="number" required>
+                    <label for="number" class="form-label">Phone Number</label>
+                    <input type="number" class="form-control" id="number" required>
                 </div>
+                <!-- Additional information = not required -->
                 <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
                     <label for="floatingTextarea2">Additional Information</label>
-                </div> 
+                </div>
+                <!-- Submit button -->
                 <div class="col-12">
-                  <button type="submit" class="btn btn-primary" >Sign Up</button>
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
                 </div>
             </form>
         </div>
@@ -109,10 +114,14 @@
             <div class="social-container text-center">
                 <h2 class="social-title">Socials</h2>
                 <div class="d-flex justify-content-between">
-                <a class="social-icons" href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
-                <a class="social-icons" href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a class="social-icons" href="https://x.com/" target="_blank" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
-                <a class="social-icons" href="https://uk.linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="social-icons" href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a class="social-icons" href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a class="social-icons" href="https://x.com/" target="_blank" aria-label="X (Twitter)"><i
+                            class="fa-brands fa-x-twitter"></i></a>
+                    <a class="social-icons" href="https://uk.linkedin.com/" target="_blank" aria-label="LinkedIn"><i
+                            class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
