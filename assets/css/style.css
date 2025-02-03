@@ -83,11 +83,15 @@ ul {
 }
 /* Changes the color of the links in the navbar */
 .navbar-nav .nav-link {
-    color: #ffffff !important;        
+    color: #ffffff;        
 }
-/* navbar hover effect */
+ /* navbar hover effect  */
 .navbar-nav .nav-link:hover  {
-    color: goldenrod !important;        
+    color: gray !important;        
+ } 
+
+ .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: goldenrod;
 }
 
 .nav-logo {

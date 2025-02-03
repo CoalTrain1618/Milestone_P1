@@ -170,9 +170,16 @@ PDF file containing all Wireframes designs
 
 ## Wave Testing
 
-* I used Wave for accessibility testing across all pages, to ensure the site has good accessibility. During testing, there were no errors found.
+Testing was focused to ensure the following criteria were met:
 
-* All pages had an alert due to both the home button and the page icon linking to index.html.However, I wanted to keep both for visitor convenience when the nav bar is collapsed in phone size.
+- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
+- Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+- All not textual content had alternative text or titles so descriptions are read out to screen readers
+- HTML page lang attribute has been set
+- Aria properties have been implemented correctly
+- WCAG 2.1 Coding best practices being followed
 
 ## Wave Test Results
 #### Index Wave Results
@@ -299,7 +306,7 @@ Carried out form validation to ensure there are minimal errors when users fill o
 ### Phone Number Field - Alert expected
 ![Phone Number](./assets/images/form-validation/phoneFieldValidation.png)
 
-### Subission Success - Expecting to be taken to for success page upon submission
+### Submission Success - Expecting to be taken to for success page upon submission
 ![Success Page](./assets/images/form-validation/sumbitFormValidation.png)
 
 ---
@@ -380,8 +387,8 @@ I tested each anchor tag across all pages to ensure they all direct me to the co
 | 79    | samaritans.org      | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Samritan's site properly | Pass    |
 | 87    | callhelpline.org    | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to C.A.L.L's site properly | Pass    |
 | 95    | nhs.uk              | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to NHS's site properly | Pass    |
-| 111   | umbrellacymru.co.uk | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Umbrella Cymru's site properly | Pass    |
-| 118   | diversecymru.org.uk    | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Diverse Cymru's site properly | Pass    |
+| 111   | umbrellacymru.co.uk | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Umbrella Cymru's site properly | Pass  |
+| 118   | diversecymru.org.uk | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Diverse Cymru's site properly | Pass    |
 | 125   | meiccymru.org    | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Miec Cymru's site properly | Pass    |
 
 ### needHelp HTML - Tel: link
@@ -397,13 +404,43 @@ I tested each anchor tag across all pages to ensure they all direct me to the co
 
 ---
 
-### Deployment
+## Deployment
 
-IDE used VS code
+### Version Control
 
-insert info about GIT commands
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
 
-insert info on Git Hub
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully. 
+
+The live link can be found here - https://gareth-mcgirr.github.io/tacos-travels/ 
+
+### Clone the Repository Code Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+
+The project will now of been cloned on your local machine for use.
+
 
 ---
 
