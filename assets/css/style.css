@@ -266,3 +266,9 @@ ul {
 .social-title { 
     font-size: 24px;
 }
+
+@media screen and (max-width: 425px) {
+    .social-icons {
+        font-size: 30px;
+    }
+}
