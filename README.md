@@ -185,8 +185,6 @@ Testing was focused to ensure the following criteria were met:
 #### Index Wave Results
 ![index wave](./assets/images/wave-results/index-wave.png)
 
-* The index page had contrast errors on the 'previous' & 'next' buttons on the carousel. I changed the icons and its colour to be high contrast numerous times, but contrast errors still persisted.
-
 #### Walks Wave Result
 ![walks wave](./assets/images/wave-results/walks-wave.png)
 
