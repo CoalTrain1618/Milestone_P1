@@ -6,7 +6,26 @@ The Men of Wales website is the central function of the Men of Wales grassroots 
 ![Multi device image](./assets/images/website-features/techsini-image.png)
 ---
 
+## Content
+
+* [Features](#featre)
+* [User Story Tests](#usrStry)
+* [WireFrames](#wireFrm)
+* [Technologies](#techno)
+* [Testing](#testing)
+  * [Wave Tests](#waveTest)
+  * [W3C Tests](#w3cTest)
+  * [Lighthouse Tests](#LightHTest)
+  * [Form Validation](#frmVal)
+  * [Browser Tests](#brwsTest)
+  * [Functional Testing](#FncTest)
+* [Deployment Control](#depCtr)
+* [Credits](#cred)
+
+
 ## Features
+
+<a id="featre"></a>
 
 ### Home Page
 
@@ -109,6 +128,8 @@ The 'Big Stuff' card is for big organised walks.
 
 ---
 
+<a id="usrStry"></a>
+
 ## User Story testing
 
 |     UserStory         |          Testing             |
@@ -120,12 +141,17 @@ The 'Big Stuff' card is for big organised walks.
 | As a visitor, I would like to see more about Men of Wales and the work they do. | Created an about page for further information on Men of Wales. This page includes goals and story, along with stats. |
 
 ---
+
+<a id="wireFrm"></a>
+
 ### link to Wireframes Here !
 
 PDF file containing all Wireframes designs
 [Wireframes PDF](/Milestone_P1/MenOfWales_Wireframes.pdf)
 
 ---
+
+<a id="techno"></a>
 
 ### Technologies Used Here
 ----
@@ -174,7 +200,11 @@ PDF file containing all Wireframes designs
 
 ---
 
+<a id="testing"></a>
+
 # Testing
+
+<a id="waveTest"></a>
 
 ## Wave Testing
 
@@ -213,6 +243,8 @@ Testing was focused to ensure the following criteria were met:
 
 ---
 
+<a id="w3cTest"></a>
+
 ## W3C Code Validation
 
 I used the W3C code validator to check that all HTML code is valid. I pasted each page's code into the validator individually for the most accurate validation.
@@ -248,6 +280,10 @@ Satisfied with the result of no errors across all pages individually, I then tes
 ![URL CSS](./assets/images/w3c-Validation/urlCssValidation.png)
 
 Both tests yielded no errors.
+
+---
+
+<a id="LightHTest"></a>
 
 ## Lighthouse testing for performance scores
 
@@ -294,6 +330,8 @@ When putting each page through testing, tests showed that the images were origin
   * ![Mobile](./assets/images/lighthouseScores/successPhoneLighthouse.png)
 ---
 
+<a id="frmVal"></a>
+
 ## Form Validation
 
 Carried out form validation to ensure there are minimal errors when users fill out the form. All fields, except for additional information, are required inputs. I expect the webpage to alert users when a field is not sufficiently filled.
@@ -317,6 +355,8 @@ Carried out form validation to ensure there are minimal errors when users fill o
 
 ---
 
+<a id="brwsTest"></a>
+
 ## Browser Testing 
 
  - I conducted browser tests using four different browsers to check for visual discrepancies and responsive design. Safari tests were conducted on a MacBook.
@@ -328,6 +368,8 @@ Carried out form validation to ensure there are minimal errors when users fill o
  |   Brave        |        Latest          |    No visual discrepancies    | Site remains responsive on all pages and screen sizes   |
  |   Safari       |        Latest          |   No visual discrepancies     | Site remains responsive on all pages and screen sizes   |
 ---
+
+<a id="FncTest"></a>
 
 ## Functional Testing
 
@@ -407,8 +449,20 @@ I tested each anchor tag across all pages to ensure they all direct me to the co
 | 87    | Phone App   | No      | Anchor Tag Functionality | Verify anchor tag Opens C.A.L.L's number to phone pad properly | Pass    |
 | 95    | Phone App   | No      | Anchor Tag Functionality | Verify anchor tag Opens NHS's number to phone pad properly | Pass    |
 
+### 404 error page 
+
+- I placed random text into the index.html to test the 404 page loads
+
+  - ![404 Error](./assets/images/website-features/404-error-input.png)
+
+- I then submitted the URL and the 404 page successfully loaded
+
+  - ![404 success](./assets/images/website-features/404-error-success.png)
+
 
 ---
+
+<a id="depCtr"></a>
 
 ## Deployment
 
@@ -433,22 +487,45 @@ The following git commands were used throughout development to push code to the 
   - Click Save.
   - A live link will be displayed in a green banner when published successfully.
 
-The live link can be found here - https://gareth-mcgirr.github.io/tacos-travels/ 
+The live link can be found here - https://github.com/CoalTrain1618/Milestone_P1
 
 ### Clone the Repository Code Locally
 
-Navigate to the GitHub Repository you want to clone to use locally:
+Navigate to the GitHub repository you want to clone to use locally:
 
-- Click on the code drop down button
-- Click on HTTPS
-- Copy the repository link to the clipboard
-- Open your IDE of choice (git must be installed for the next steps)
-- Type git clone copied-git-url into the IDE terminal
+ - Click on the Code drop-down button.
+ - Click on HTTPS.
+ - Copy the repository link to the clipboard.
+ - Open your IDE of choice (Git must be installed for the next steps).
+ - Type git clone copied-git-url into the IDE terminal.
 
-The project will now of been cloned on your local machine for use.
-
+The project will now have been cloned to your local machine for use.
 
 ---
 
-### Credits Here
+<a id="cred"></a>
 
+## Credits
+
+### Image Credits
+
+- Header Image and walk images from - unsplash.com
+- ChatGPT for generating carousel & about us Images
+
+### Honourable mentions 
+
+- Mentor: Gareth, who assisted with ideas and guidance throughout the project.
+- Tutor: Marko, who offered guidance throughout the project.
+- Fellow Students who offered feedback on the project.
+  - Seren hughes
+  - Teseo Nicholson
+  - Ethan Skidmore
+
+### Tech
+
+- Bootstrap library and [website](https://getbootstrap.com/docs/5.3/getting-started/introduction/) for guidance.
+- Microsoft Photos for image resizing.
+- freeconvert.com [website]((https://www.freeconvert.com/webp-converter)) for converting images to webp format.
+- ChatGPT for image generation
+- Microsoft paint for logo colouring
+- Styling Ideas for Markdown from [Here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
