@@ -509,7 +509,7 @@ The project will now have been cloned to your local machine for use.
 
 ### Image Credits
 
-- Header Image and walk images from - unsplash.com
+- Header Image and walk images from - [unsplash.com](https://unsplash.com/)
 - ChatGPT for generating carousel & about us Images
 
 ### Honourable mentions 
