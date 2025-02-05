@@ -1,12 +1,12 @@
 ![Men of Wales logo](/assets/images/MenofWalesLogo_small.webp) 
 # Men of Wales
 
-The Men of Wales website is the central function of the Men of Wales grassroots charity. This charity aims to improve the mental health and wellbeing of men across South Wales by facilitating group walks for new and current service users. The website features current group walks for visitors to view and book, and also offers direction to other services that can help with mental health.
+The Men of Wales website is the central function of the Men of Wales grassroots charity. This charity aims to improve the mental health and well-being of men across South Wales by facilitating group walks for new and current service users. The website features current group walks for visitors to view and book, and also offers direction to other services that can help with mental health.
 
 ![Multi device image](./assets/images/website-features/techsini-image.png)
 ---
 
-
+## Features
 
 ### Home Page
 
@@ -14,43 +14,49 @@ The Men of Wales website is the central function of the Men of Wales grassroots 
 ![navbar-colapsed](/assets/images/website-features/nav-bar-feature-collapsed.png)
 ![navbar-expanded](/assets/images/website-features/nav-bar-feature.png)
 
-* Contains navigation links to different pages on the site, allowing the visitor to navigate efficiently
-* enhances the user experience, ensuring quick navigation and improving engagment.
+- Contains navigation links to different pages on the site, allowing the visitor to navigate efficiently
+
+- Enhances the user experience, ensuring quick navigation and improving engagement.
 
 #### Footer
 
 ![footer](/assets/images/website-features/footer.png)
 
-* Provide users with quick access to social media platforms and display copyright information clearly.
-* Enhances user engagement by encouraging social media interaction aswell as display important copyright information.
+- Provides users with quick access to social media platforms and displays copyright information clearly.
+
+- Enhances user engagement by encouraging social media interaction as well as displaying important copyright information.
 
 #### Walking image carousel 
 
 ![walking-carousel](./assets/images/website-features/walk-picture-carousel.png)
 
-* Display past walks through using an image carousel, along with the title "Why Walk?" with informative facts and a link to the walks page for further browsing.
-* Captures user interest by displaying past walks, educates visitors on the benefits of walking, and encourages further interst to the walks page.
+- Displays past walks using an image carousel, along with the title "Why Walk?" with informative facts and a link to the walks page for further browsing.
+
+- Captures user interest by displaying past walks, educates visitors on the benefits of walking, and encourages further interest in the walks page.
 
 #### Need Help Support card
 
 ![support section](./assets/images/website-features/supportcard.png)
 
-* Provide users with an accessible and clear option to seek additional support services. featuring supportive and comforting text.
-* Allows users to quickly identify further support page incase they need fast access to helplines. 
+- Provides users with an accessible and clear option to seek additional support services, featuring supportive and comforting text.
+
+- Allows users to quickly identify the further support page in case they need fast access to helplines.
 
 #### Walkers words text carousel
 
 ![walk review carousel](./assets/images/website-features/walk-review-carousel.png)
 
-* Showcases an auto-play text carousel featuring walkers reviews with the title "Walkers' Words" and text in speech marks of walkers' stories.
-* Provides reviews from past walkers, encouraging new visitors to join walks and building a sense of community and familiarity.
+- Showcases an auto-play text carousel featuring walkers' reviews with the title "Walkers' Words" and text in speech marks of walkers' stories.
+
+- Provides reviews from past walkers, encouraging new visitors to join walks and building a sense of community and familiarity.
 
 #### About us shortcut card
 
 ![About us section](./assets/images/website-features/aboutUsSection.png)
 
-* Urge visitors to explore the website further by visiting the About Us page to read about the organisation.
-* Promotes engagement by encouraging visitors to find out more about the charity, furthering visitor familiarity with the organisation and its mission.
+- Urges visitors to explore the website further by visiting the About Us page to read about the organisation.
+
+- Promotes engagement by encouraging visitors to find out more about the charity, furthering visitor familiarity with the organisation and its mission.
 
 ### Walk Page
 
@@ -58,11 +64,12 @@ The Men of Wales website is the central function of the Men of Wales grassroots 
  
 ![Walk Cards](./assets/images/website-features/walkCard.png)
 
-* Enable visitors to browse available walks and view essential walk information and a visualisation of the walk.
-* Gives visitors a convenient and informative overview of upcoming walks while promoting visitors' familiarity with each walk.
+- Enables visitors to browse available walks and view essential walk information and a visualisation of the walk.
+
+- Gives visitors a convenient and informative overview of upcoming walks while promoting visitors' familiarity with each walk.
 
 
-The big stuff card is for big organised walks.
+The 'Big Stuff' card is for big organised walks.
 
 ![Big Stuff card](./assets/images/website-features/bigStuffCard.png)
 
@@ -70,22 +77,25 @@ The big stuff card is for big organised walks.
 
 ![About Us](./assets/images/website-features/aboutPage.png)
 
-* Provide visitors with a comprehensive overview to help them understand who we are, our mission, and what we aim to achieve.
-* Educates visitors about the organisation's background and goals, promoting visitor engagement with joining our walks.
+- Provides visitors with a comprehensive overview to help them understand who we are, our mission, and what we aim to achieve.
+
+- Educates visitors about the organisation's background and goals, promoting visitor engagement with joining our walks.
 
 ### Need help page
 
 ![Support guidance](./assets/images/website-features/supportGuidance.png)
 
-* Provide visitors seeking extra support with a page featuring cards that highlight organisations for crisis helplines and general support, offering diverse options to cater to various needs.
-* Ensures visitors can quickly and easily find relevant support services and crisis help lines. Giving visitors easy to access support.
+- Provides visitors seeking extra support with a page featuring cards that highlight organisations for crisis helplines and general support, offering diverse options to cater to various needs.
+
+- Ensures visitors can quickly and easily find relevant support services and crisis helplines, giving visitors easy-to-access support.
 
 ### Sign Up page
 
 ![Sign Up page](./assets/images/website-features/sign-upPage.png)
 
-* Provide a straightforward form where visitors can register to join one of the Men of Wales walks.
-* Facilitates easy registration, encouraging participation by simplifying the sign-up process and ensuring a hastle free sign up.
+- Provides a straightforward form where visitors can register to join one of the Men of Wales walks.
+
+- Facilitates easy registration, encouraging participation by simplifying the sign-up process and ensuring a hassle-free sign up.
 
 ![Successfully submitted](./assets/images/website-features/successPage.png)
 
@@ -93,23 +103,21 @@ The big stuff card is for big organised walks.
 
 ![404 Error](./assets/images/website-features/404Page.png)
 
-* Ensure design continuity across the website by incorporating a custom page.
-* Maintains a cohesive and unified look throughout the site, enhancing user experience.
----
+- Ensures design continuity across the website by incorporating a custom page.
 
-## Responsive Design
+- Maintains a cohesive and unified look throughout the site, enhancing user experience.
 
 ---
 
 ## User Story testing
 
-|                          User Story                                   |                              Testing                             |
-| ----------------------------------------------------------------------|------------------------------------------------------------------|
-| As a visitor who is interested in joining a group walk. I would like to see what walking groups are available to join and where.  | Created card fors visitors to get information on each walk. Features include Image of walk, location with map pin and walk times.   |
-| As a visitor who isn't sure about walking in groups, i would like to see group sizes and to feel familiar with what to expect.    | Added a feature in to display average group size for visitor familiarity.| 
-|  As a previous attendee to a walk, I want to quickly access the sign up form for the other walks.                                 | Added sign-up form to navigation bar for quick access. |
-|  As a visitor who is also looking for support with my mental health, i would like to see recourses to mental health services. | Created a page containing general information on mental health along with links to other services for crisis and mental health support. |
-| As a visitor I would like to see more about Men of Wales and the work they do. | Created an about page for further information on Men of Wales. This page includes goals and story, along with stats. 
+|     UserStory         |          Testing             |
+| ----------------------|------------------------------|
+| As a visitor who is interested in joining a group walk, I would like to see what walking groups are available to join and where.  | Created cards for visitors to get information on each walk. Features include image of walk, location with map pin and walk times.   |
+| As a visitor who isn't sure about walking in groups, I would like to see group sizes and to feel familiar with what to expect.    | Added a feature to display average group size for visitor familiarity.| 
+| As a previous attendee to a walk, I want to quickly access the sign-up form for the other walks.                                 | Added sign-up form to navigation bar for quick access. |
+| As a visitor who is also looking for support with my mental health, I would like to see resources for mental health services. | Created a page containing general information on mental health along with links to other services for crisis and mental health support. |
+| As a visitor, I would like to see more about Men of Wales and the work they do. | Created an about page for further information on Men of Wales. This page includes goals and story, along with stats. |
 
 ---
 ### link to Wireframes Here !
@@ -123,13 +131,13 @@ PDF file containing all Wireframes designs
 ----
 
 * HTML
-  * main strucure on of the website
+  * Main structure of the website
 
 * CSS
-  * Styling the website with css external file
+  * Styling the website with an external CSS file"
 
 * JavaScript
-  * Used for adding in bootStrap & Fontawesome funtionality
+  * Used for adding in Bootstrap & Font Awesome functionality
 
 * Bootstrap
   * Used for framework of various sections (tagged with Bootstrap)
@@ -137,20 +145,20 @@ PDF file containing all Wireframes designs
 * Favicon.io
   * Used for favicons generated 
 
-* Fontawesome
+* Font Awesome
   * Used for Icons across site
 
 * ChatGPT
-  * Used for generation website logo and images used
+  * generating the website logo and images some images used
 
-* Balsamic
+* Balsamiq
   * Creating and designing the Wireframes for Men of Wales 
 
-* Git hub
+* GitHub
   * used for hosting files and deployment
 
 * Git
-  * Used for commiting changes and pushing to Github.
+  * Used for committing changes and pushing to GitHub.
 
 * VS Code
   * Code editor used for writing all code in this project. 
@@ -159,9 +167,9 @@ PDF file containing all Wireframes designs
   * USed for website performance testing
 
 * Wave 
-  * Used for testing website  accessability
+  * Used for testing website  accessibility
 
-* W3cs
+* W3C
   * Used for code validation
 
 ---
@@ -172,14 +180,14 @@ PDF file containing all Wireframes designs
 
 Testing was focused to ensure the following criteria were met:
 
-- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
-- Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
-- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
-- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
-- All not textual content had alternative text or titles so descriptions are read out to screen readers
-- HTML page lang attribute has been set
-- Aria properties have been implemented correctly
-- WCAG 2.1 Coding best practices being followed
+- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs.
+- Colour contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html).
+- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user.
+- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions.
+- All non-textual content had alternative text or titles so descriptions are read out to screen readers.
+- HTML page lang attribute has been set.
+- ARIA properties have been implemented correctly.
+- WCAG 2.1 Coding best practices being followed.
 
 ## Wave Test Results
 #### Index Wave Results
@@ -207,7 +215,7 @@ Testing was focused to ensure the following criteria were met:
 
 ## W3C Code Validation
 
-I used W3C code validator for checking all HTML code is valid. I pasted each pages code into the validatior individually for most accurate validation.
+I used the W3C code validator to check that all HTML code is valid. I pasted each page's code into the validator individually for the most accurate validation.
 
 ## Results
 #### index.html
@@ -231,7 +239,7 @@ I used W3C code validator for checking all HTML code is valid. I pasted each pag
 #### style.css
 ![style.css](./assets/images/w3c-Validation/cssValidation.png)
 
-Satisfied with the result of no errors accross all pages individually, I then tested the HTMl and CSS with URL testing method.
+Satisfied with the result of no errors across all pages individually, I then tested the HTML and CSS with the URL testing method.
 
 #### URL test HTML
 ![URL HTML](./assets/images/w3c-Validation/urlHtmlValidation.png)
@@ -241,7 +249,7 @@ Satisfied with the result of no errors accross all pages individually, I then te
 
 Both tests yielded no errors.
 
-## Light house testing for performance scores
+## Lighthouse testing for performance scores
 
 I used Lighthouse testing for performance tests, checking that the site runs smoothly on both desktop and mobile. As expected, mobile results are slightly lower.
 
@@ -311,14 +319,14 @@ Carried out form validation to ensure there are minimal errors when users fill o
 
 ## Browser Testing 
 
- - I conducted browser tests using four different browsers to check for visual discrepencies and responsive design. Safari tests was conducted on a MacBook.
+ - I conducted browser tests using four different browsers to check for visual discrepancies and responsive design. Safari tests were conducted on a MacBook.
 
- |    Browser     |        Version         |      Visual Discrepencies     |                   Responsive design                     |
+ |    Browser     |        Version         |      Visual Discrepancies     |                   Responsive Design                     |
  |----------------|------------------------|-------------------------------|---------------------------------------------------------|
- |   Google       |        Latest          |    No visual discrepencies    | Site remains responsive on all pages and screen sizes   |
- |   Edge         |        Latest          |    No visual discrepencies    | Site remains responsive on all pages and screen sizes   |
- |   Brave        |        Latest          |    No visual discrepencies    | Site remains responsive on all pages and screen sizes   |
- |   Safari       |        Latest          |                               |    |
+ |   Google       |        Latest          |    No visual discrepancies    | Site remains responsive on all pages and screen sizes   |
+ |   Edge         |        Latest          |    No visual discrepancies    | Site remains responsive on all pages and screen sizes   |
+ |   Brave        |        Latest          |    No visual discrepancies    | Site remains responsive on all pages and screen sizes   |
+ |   Safari       |        Latest          |   No visual discrepancies     | Site remains responsive on all pages and screen sizes   |
 ---
 
 ## Functional Testing
@@ -345,7 +353,7 @@ I tested each anchor tag across all pages to ensure they all direct me to the co
 |--------------|---------------------|---------------|--------------------------|----------------------------------------------------|--------|
 | 97    | walks.html     | No      | Anchor Tag Functionality | Verify anchor tag redirects to walks.html properly    | Pass    |
 | 110   | needHelp.html  | No      | Anchor Tag Functionality | Verify anchor tag redirects to needHelp.html properly | Pass    |
-| 137   | about.html     | No      | Anchor Tag Functionality | Verify anchor tag redirects to needHelp.html properly | Pass    |
+| 137   | about.html     | No      | Anchor Tag Functionality | Verify anchor tag redirects to about.html properly | Pass    |
 
 ### - Index Footer
 
@@ -387,7 +395,7 @@ I tested each anchor tag across all pages to ensure they all direct me to the co
 | 95    | nhs.uk              | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to NHS's site properly | Pass    |
 | 111   | umbrellacymru.co.uk | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Umbrella Cymru's site properly | Pass  |
 | 118   | diversecymru.org.uk | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Diverse Cymru's site properly | Pass    |
-| 125   | meiccymru.org    | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Miec Cymru's site properly | Pass    |
+| 125   | meiccymru.org    | Yes      | Anchor Tag Functionality | Verify anchor tag redirects to Meic Cymru's site properly | Pass    |
 
 ### needHelp HTML - Tel: link
 
@@ -418,12 +426,12 @@ The following git commands were used throughout development to push code to the 
 
 ### Deployment to Github Pages
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the menu on left select 'Pages'
-  - From the source section drop-down menu, select the Branch: main
-  - Click 'Save'
-  - A live link will be displayed in a green banner when published successfully. 
+- The site was deployed to GitHub Pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab.
+  - From the menu on the left, select Pages.
+  - From the source section drop-down menu, select the Branch: main.
+  - Click Save.
+  - A live link will be displayed in a green banner when published successfully.
 
 The live link can be found here - https://gareth-mcgirr.github.io/tacos-travels/ 
 
